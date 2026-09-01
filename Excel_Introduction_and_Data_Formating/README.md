@@ -380,7 +380,6 @@ XLOOKUP is a modern Excel lookup function used to search for a value in a range 
 - Paste Special Operations
 
 ---
-
 ## 🧮 Important Formulas
 
 ### INDEX
