@@ -2116,7 +2116,6 @@ The workbook contains daily practical exercises based on the topics covered duri
 - GitHub
 
 ---
-
 # 🎯 Goal
 
 The goal of this learning series is to develop practical Excel skills for Data Analytics and build a strong foundation for working with real-world datasets, reports, dashboards, and business analysis.
