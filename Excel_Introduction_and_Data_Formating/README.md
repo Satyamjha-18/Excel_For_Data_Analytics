@@ -230,9 +230,7 @@ After completing Day 06, I can:
 ---
 
 ## 🎯 Learning Outcomes
-
 After completing Day 07, I can:
-
 - Work with dates and times
 - Extract day, month, and year
 - Generate current date and time
@@ -399,4 +397,3 @@ XLOOKUP is a modern Excel lookup function used to search for a value in a range 
 - XLOOKUP 
 - Index and match Function
 -Data Validation
-
