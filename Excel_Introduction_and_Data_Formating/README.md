@@ -338,17 +338,30 @@ XLOOKUP is a modern Excel lookup function used to search for a value in a range 
 - Practical XLOOKUP Examples
 
 ---
-
 ## 🧮 Basic Syntax
  ---
-```excel
-=XLOOKUP(lookup_value, lookup_array, return_array)
---- 
-# 📅 Day 12 - INDEX & MATCH, Data Validation & Paste Special
+excel
+# =XLOOKUP(lookup_value, lookup_array, return_array)
+## 📌 Topics Covered
+---
+- XLOOKUP Syntax
+- Lookup Value
+- Lookup Array
+- Return Array
+- Exact Match
+- Not Found Message
+- Horizontal and Vertical Lookup
+- XLOOKUP 
+- Index and match Function
+-Data Validation
+---
+---
+
+# 📅 Day 12 - INDEX & MATCH, Data Validation, Paste Special & Conditional Formatting
 
 ## 📖 Topics Covered
 
-### 🔎 INDEX & MATCH Functions
+### 🔎 INDEX & MATCH
 
 - INDEX Function
 - MATCH Function
@@ -356,7 +369,7 @@ XLOOKUP is a modern Excel lookup function used to search for a value in a range 
 - Exact Match
 - Two-way Lookup
 - Dynamic Data Lookup
-- Using INDEX & MATCH for flexible data lookup
+- Flexible Data Lookup
 
 ### ✅ Data Validation
 
@@ -377,23 +390,117 @@ XLOOKUP is a modern Excel lookup function used to search for a value in a range 
 - Paste Column Widths
 - Paste Special Operations
 
+### 🎨 Conditional Formatting
+
+- Highlight Cell Rules
+- Greater Than
+- Less Than
+- Between
+- Duplicate Values
+- Top/Bottom Rules
+- Data Bars
+- Color Scales
+- Icon Sets
+
 ---
-## 🧮 Important Formulas
+
+## 📌 INDEX & MATCH
+
+INDEX and MATCH are lookup functions used together to perform flexible data lookups.
 
 ### INDEX
 
-```excel
+excel
 =INDEX(return_range,row_num)
+
+
+# 📅 Day 13 - What-If Analysis
+
+## 📖 What is What-If Analysis?
+
+What-If Analysis is an Excel feature used to analyze how changing input values affects the final result.
+
+It is useful for:
+
+- Business forecasting
+- Decision making
+- Profit analysis
+- Budget planning
+- Sales forecasting
+- Sensitivity analysis
+
 ---
+
 ## 📌 Topics Covered
 
-- XLOOKUP Syntax
-- Lookup Value
-- Lookup Array
-- Return Array
-- Exact Match
-- Not Found Message
-- Horizontal and Vertical Lookup
-- XLOOKUP 
-- Index and match Function
--Data Validation
+- What-If Analysis
+- Scenario Manager
+- Scenario Summary
+- Goal Seek
+- Data Table
+- One-Variable Data Table
+- Two-Variable Data Table
+- Sensitivity Analysis
+
+---
+
+## 🎯 Scenario Manager
+
+Scenario Manager is used to create and compare different sets of input values.
+
+### Example
+
+Different business scenarios can be created:
+
+- Best Case
+- Normal Case
+- Worst Case
+
+### Excel Process
+
+1. Create the required Excel model.
+2. Go to **Data**.
+3. Select **What-If Analysis**.
+4. Click **Scenario Manager**.
+5. Click **Add**.
+6. Enter the scenario name.
+7. Select the changing cells.
+8. Enter the scenario values.
+9. Click **OK**.
+10. Repeat the process for other scenarios.
+
+### Learning Outcome
+
+Learned how to create and compare different business scenarios.
+
+---
+
+## 📊 Scenario Summary
+
+Scenario Summary creates a report that compares the results of multiple scenarios.
+
+### Excel Process
+
+1. Open **Scenario Manager**.
+2. Create the required scenarios.
+3. Click **Summary**.
+4. Select **Scenario Summary**.
+5. Select the result cells.
+6. Click **OK**.
+
+### Learning Outcome
+
+Learned how to generate a summary report for comparing scenario results.
+
+---
+
+## 🎯 Goal Seek
+
+Goal Seek is used to find the input value required to achieve a specific target output.
+
+### Example
+
+If the target profit is:
+
+text
+₹50,000
