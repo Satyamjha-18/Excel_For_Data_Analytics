@@ -2083,6 +2083,205 @@ After completing Day 12, I can:
 
 ---
 
+# 📅 Day 13 - What-If Analysis
+
+## 📖 What is What-If Analysis?
+
+What-If Analysis is an Excel feature used to analyze how changing input values affects the result of formulas.
+
+It is useful for:
+- Business analysis
+- Financial planning
+- Sales forecasting
+- Budget planning
+- Decision making
+
+Excel provides three main What-If Analysis tools:
+
+- Scenario Manager
+- Goal Seek
+- Data Table
+
+---
+
+## 🎯 1. Scenario Manager
+
+Scenario Manager is used to create and compare different sets of input values.
+
+For example, we can create different scenarios such as:
+
+- Best Case
+- Worst Case
+- Normal Case
+
+Each scenario contains different input values, and Excel shows how those values affect the final result.
+
+### 📌 Steps
+
+1. Create a model with input cells and formula cells.
+2. Go to `Data` → `What-If Analysis`.
+3. Select `Scenario Manager`.
+4. Click `Add`.
+5. Enter a scenario name.
+6. Select the changing cells.
+7. Enter the values for the scenario.
+8. Create multiple scenarios.
+9. Select a scenario and click `Show` to view the result.
+
+---
+
+## 📊 2. Scenario Summary
+
+Scenario Summary is used to compare the results of multiple scenarios in a separate summary table.
+
+For example:
+
+| Scenario | Sales | Expenses | Profit |
+|----------|------:|---------:|-------:|
+| Best Case | 150000 | 70000 | 80000 |
+| Normal Case | 120000 | 70000 | 50000 |
+| Worst Case | 90000 | 70000 | 20000 |
+
+### 📌 Steps
+
+1. Open `Scenario Manager`.
+2. Create different scenarios.
+3. Click `Summary`.
+4. Select `Scenario Summary`.
+5. Select the result cells.
+6. Click `OK`.
+
+Excel creates a new worksheet containing the scenario comparison.
+
+---
+
+## 🎯 3. Goal Seek
+
+Goal Seek is used when we know the desired result but do not know the input value required to achieve that result.
+
+### 📌 Example
+
+Suppose:
+
+- Selling Price = ₹500
+- Quantity = 100
+- Revenue = Selling Price × Quantity
+
+If we want Revenue to become ₹75,000, Goal Seek can calculate the required quantity.
+
+### 📌 Steps
+
+1. Create a formula that produces the desired result.
+2. Go to `Data` → `What-If Analysis`.
+3. Select `Goal Seek`.
+4. In `Set cell`, select the formula/result cell.
+5. In `To value`, enter the desired result.
+6. In `By changing cell`, select the input cell.
+7. Click `OK`.
+
+### 🧮 Goal Seek Structure
+
+```text
+Set cell → Formula/Result Cell
+To value → Desired Result
+By changing cell → Input Cell
+
+## 📈 4. Data Table
+
+Data Table is a What-If Analysis tool used to see how changing one or two input values affects a formula result.
+
+### 📌 Types of Data Table
+
+- One-Variable Data Table
+- Two-Variable Data Table
+
+### 📊 One-Variable Data Table
+
+A One-Variable Data Table changes one input value and shows how it affects the result.
+
+Example:
+
+| Quantity | Revenue |
+|----------|---------|
+| 50 | 25000 |
+| 100 | 50000 |
+| 150 | 75000 |
+| 200 | 100000 |
+
+### 📊 Two-Variable Data Table
+
+A Two-Variable Data Table changes two input values and shows their combined effect on the result.
+
+Example:
+
+| Quantity / Price | 400 | 500 | 600 |
+|------------------|----:|----:|----:|
+| 50 | 20000 | 25000 | 30000 |
+| 100 | 40000 | 50000 | 60000 |
+| 150 | 60000 | 75000 | 90000 |
+
+### 📌 Steps to Create Data Table
+
+1. Create the main formula.
+2. Prepare different input values.
+3. Select the complete table.
+4. Go to `Data` → `What-If Analysis`.
+5. Select `Data Table`.
+6. Select the appropriate Row Input Cell or Column Input Cell.
+7. Click `OK`.
+
+---
+
+## 🔄 Difference Between What-If Analysis Tools
+
+| Tool | Purpose |
+|------|---------|
+| Scenario Manager | Compare different sets of input values |
+| Scenario Summary | Summarize scenario results |
+| Goal Seek | Find the input required to achieve a target |
+| Data Table | Analyze multiple input values |
+
+---
+
+## 💼 Real-World Applications
+
+What-If Analysis can be used for:
+
+- Sales forecasting
+- Profit analysis
+- Budget planning
+- Financial modeling
+- Pricing decisions
+- Business planning
+- Cost analysis
+- Decision making
+
+---
+
+## 🎯 Learning Outcomes
+
+After completing this topic, I can:
+
+- Understand What-If Analysis
+- Create scenarios using Scenario Manager
+- Generate Scenario Summary reports
+- Use Goal Seek to achieve a target value
+- Create One-Variable Data Tables
+- Create Two-Variable Data Tables
+- Compare different business scenarios
+- Perform basic decision-making analysis
+
+---
+
+## 📝 Key Takeaways
+
+- **Scenario Manager** → Compare different scenarios.
+- **Scenario Summary** → Summarize scenario results.
+- **Goal Seek** → Find the input required for a desired result.
+- **Data Table** → Analyze multiple possible input values.
+
+---
+
 # 📈 Excel Learning Progress
 
 - [x] Day 01 - Introduction & Data Formatting
@@ -2096,8 +2295,8 @@ After completing Day 12, I can:
 - [x] Day 09 - Logical Operators & Functions
 - [x] Day 10 - VLOOKUP, HLOOKUP & LOOKUP
 - [x] Day 11 - XLOOKUP
-- [x] Day 12 - INDEX & MATCH
-
+- [x] Day 12 - INDEX & MATCH, Data Validation & Paste Special
+- [x] Day 13 - What-If Analysis
 ---
 
 # 📂 Workbook Structure
@@ -2116,6 +2315,7 @@ The workbook contains daily practical exercises based on the topics covered duri
 - GitHub
 
 ---
+
 # 🎯 Goal
 
 The goal of this learning series is to develop practical Excel skills for Data Analytics and build a strong foundation for working with real-world datasets, reports, dashboards, and business analysis.
